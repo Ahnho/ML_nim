@@ -1,6 +1,5 @@
 import math
-
-
+ 
 type 
     Dual = object
         x* : float64

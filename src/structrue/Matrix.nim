@@ -1,7 +1,7 @@
 import complex,math,vector 
-import ../../operations 
+import ../operations 
 # ==============================   
-# Matrix Structrue  
+# Matrix Structrue   
 # ============================== 
 type Matrix* = object 
     ## Sangho's Matrix 

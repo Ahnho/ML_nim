@@ -1,6 +1,6 @@
 import math
 import Matrix
-import ../../operations  
+import ../operations  
  
 # =========================================================
 # polynomial Structrue 

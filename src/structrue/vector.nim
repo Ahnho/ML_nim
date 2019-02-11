@@ -1,5 +1,5 @@
 import math
-import ../../operations 
+import ../operations 
 
 # vector
 type 

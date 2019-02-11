@@ -1,5 +1,5 @@
 import ../structrue/Matrix
-import ../../operations
+import ../operations
 import random,math
 
 
