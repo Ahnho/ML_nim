@@ -1,11 +1,12 @@
 import math
+
  
 type 
     Dual = object
         x* : float64
         dx* : float64
 
-
+ 
 proc dual*(real_num,dual_num:float64):Dual=
     result.x = real_num
     result.dx = dual_num

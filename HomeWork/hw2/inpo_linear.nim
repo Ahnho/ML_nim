@@ -1,6 +1,6 @@
 import ../../src/structrue/poly
 import ../../src/structrue/Matrix
-import ../../operations 
+import ../../src/operations 
  
 ## Interpolation
 proc Itpt*(x,y:seq[float64]):Polynomial=
@@ -77,4 +77,4 @@ proc main() =
 
 if isMainModule:
   main()
- 
+  
