@@ -151,9 +151,9 @@ const WTAB: seq[float64] = @[
 
 
 ## Gaussian random numbers using the Ziggurat Method
-# proc ziggurat*(rng:Gsl_rng,sigma:float64):float64=
+# proc ziggurat*(rng:var Rand,sigma:float64):float64=
 #     let x,y:float64 = 0.0    
 #     let U,sign,i,j:auto = 0.0    
 
 
-#     # while 1 :
+#     while 1 :

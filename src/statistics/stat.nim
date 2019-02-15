@@ -1,5 +1,5 @@
 import ../structrue/Matrix
-import ../operations
+import ../../operations
 import random,math
 
 
@@ -25,11 +25,10 @@ proc nrow*(x:Matrix):int=
 
 proc ncol*(x:Matrix):int=
     return x.num_col
-    
 
 proc cbind*(a,b:Matrix):Matrix=
-    assert a.num_row == b.num_row
-    assert a.num_col == b.num_col
+    assert row(a) == row(b)
+    assert col(a) == col(b)
     var c :seq[float64] = @[]
     for i in 0 .. nrow(a)-1 :
         c.add(a.data[i])
